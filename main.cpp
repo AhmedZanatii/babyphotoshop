@@ -596,7 +596,7 @@ void dark_and_bright(string & filename){
     int choose;
 
     Image image(filename);
-    cout << "wanna bright the photo(1), wanna bright the photo(2)\n";
+    cout << "wanna bright the photo(1), wanna dark the photo(2)\n";
     while (true) {
         cin >> choose;
         if ( choose == 1 || choose == 2) {
